@@ -1,9 +1,15 @@
+/* media query for mobile */
+@media screen and(max-width){
 
-
+}
+*{
+    scroll-behavior: smooth;
+}
     
 body{
     overflow:hidden;
-    background-image:url(downloadx.jpg);
+    background-image:url(27.avif);
+    
     
 
 
@@ -191,11 +197,12 @@ nav ul li {
    gap:10px;
    text-align: center;
    height: 100px;
+  
 }
-.box p{
+
    
     
-}
+
 
 
 [class^="icon-item"]{
@@ -215,11 +222,11 @@ background-color: aliceblue;
     padding: 10px 30px;
     border-radius: 10px;
     box-shadow: 200px;
-    transition: all 1s;
+    transition:  ease-in-out;
 }
-.box :hover{
+
    
-}
+
 button{
     color:white;
     background-color: black;
@@ -237,8 +244,13 @@ button{
    text-align: center;
    height: 100px;
    margin-left: 60px;
+   transition: 5s ease-in-out;
 }
- 
+
+.card1 :hover{
+    transform: scale(0.95);
+    background-color: lightgreen;
+}
 [class^="icon1-item"]{
     border: 2px solid white ;
     padding:60px 40px;
@@ -260,7 +272,12 @@ button{
    height: 100px;
    margin-top: 120px;
    margin-left: 60px;
-   
+   transition: 5s ease-in-out;
+}
+
+.card2 :hover{
+    transform: scale(0.95);
+    background-color: lightgreen;
 }
 
 
@@ -436,11 +453,15 @@ p bell{
 .card3{
     margin-top: 300px;
     padding-left: 40px;
+    transition:3s ease-in-out;
    
     
     /* border-radius: 8px; */
     border-bottom: #f1c40f;
 
+}
+.card3 :hover{
+    transform: scale(0.95);
 }
 [class^="icon3-items"]{
  
@@ -540,25 +561,28 @@ span{
     grid-template-columns: 300px 300px;
     grid-template-rows: 300px 300px;
     transform: translateY(300px);
-    background-color:;
+    /* background-color:; */
 }
 .icon5-item1{
-   background-color: lightblue;
+    background-image:url(21.jpg);
    border-radius: 8px;
    border-top: darkgreen;
 }
+.icon5-item1 :hover{
+  ;
+}
 .icon5-item2{
-   background-color:  lightblue;
+    background-image:url(25.jpg) ;
    border-radius: 8px;
    border-top: darkgreen;
 }
 .icon5-item3{
-    background-color: lightblue;
+    background-image:url(23.jpg);
     border-radius: 8px;
     border-top: darkgreen;
 }
 .icon5-item4{
-    background-color: lightblue;
+    background-image:url(24.jpg);
     border-radius: 8px;
     border-top: darkgreen;
 }
@@ -623,5 +647,7 @@ input[type='text']{
 }
 
 
-
+@media screen and (max-width:600px) {
+    
+}
 
