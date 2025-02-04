@@ -340,13 +340,14 @@ p bell{
 }
 
 .skills {
-    /* display: grid;
-    grid-template-columns: 300px 300px;
-    grid-template-rows:10px 10px 10px; */
+ display: flex;
    
     gap: 20px;
-    width: 40%;
-    justify-content: space-evenly;
+    width: 80%;
+    justify-content: space-between;
+}
+.container1 p{
+    color: black;text-align: justify;
 }
 
 .skill {
@@ -362,6 +363,7 @@ p bell{
 
 .progress-bar {
     height: 8px;
+    width: 300%;
     background: #eaeaea;
     border-radius: 5px;
     position: relative;
@@ -485,28 +487,27 @@ p bell{
 }
 .card3 p{
     font-size: 24px;
-    display: flex;
+    color: black;
+    text-align: justify;
+    padding: 0px 10px;
+   
 }
 .icon3-items1{
   background-color:lightblue;
   border-radius: 10px;
   margin-right: 20px;
   box-shadow: 100px black;
-  border: 2px solid darkblue;   
+  border: 2px solid darkblue;
+  /* margin-top: 200px; */
+}   
  
-}
-.apartment1{
- 
-}
-.fa-pencil{
-    
-}
 .icon3-items2{
   background-color:lightblue;
   border-radius: 10px;
   margin-right: 20px;
    box-shadow: 100px black;  
   border: 2px solid darkblue;
+  margin-top: 30px;
 }
 .icon3-items3{
   background-color:lightblue;
@@ -514,6 +515,7 @@ p bell{
   margin-right: 20px;
   box-shadow: 100px black;
   border: 2px solid darkblue;
+  margin-top: 30px;
 }
 .icon3-items4{
   background-color:lightblue;
@@ -521,6 +523,7 @@ p bell{
   margin-right: 20px;
   box-shadow: 100px black;
   border: 2px solid darkblue;
+  margin-top: 30px;
 }
 .icon3-items5{
   background-color:lightblue;
@@ -528,6 +531,7 @@ p bell{
   margin-right: 20px;
   box-shadow: 100px black;
   border: 2px solid darkblue;
+  margin-top: 30px;
 }
 
 /* 
@@ -581,7 +585,7 @@ span{
    border-top: darkgreen;
 }
 .icon5-item1 :hover{
-  ;
+  
 }
 .icon5-item2{
     background-image:url(25.jpg) ;
@@ -624,13 +628,76 @@ span{
     margin-top: 50px;
     font-size: 40px;
 }
+.block1 p{
+    font-size: 15px;
+    color: black;               
+}
+.block1 i{
+    margin-right: 10px;
+     font-size: 30px;
+     color: blue;
+     height: 50px;
+     width: 50px;
+     border-radius: 50%;
+     background-color:peachpuff;
+     text-align: center;
+ }
 .block2{
     margin-top: 50px;
     font-size: 40px;
 }
+.block2 p{
+    font-size: 15px;
+    color: black;
+}
+.block2 i{
+   margin-right: 10px;
+    font-size: 30px;
+    color: blue;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: peachpuff;
+    text-align: center;
+}
+
 .block3{
     margin-top: 50px;
+    display: flex;
 }
+.block3 p{
+    font-size: 15px;
+    color: black;
+}
+.block3 i{
+    margin-right: 10px;
+    font-size: 30px;
+    color:blue;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:peachpuff;
+    text-align: center;
+}
+.block8{
+    margin-top: 50px;
+    display: flex;
+}
+.block8 p{
+    font-size: 15px;
+    color: black;
+}  
+.block8 i{
+    margin-right: 10px;
+    font-size: 30px;
+    color:blue;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:peachpuff;
+    text-align: center;
+}
+
 .block4{
     margin-top: 10px;
     height: 80px;
@@ -657,9 +724,25 @@ input[type='text']{
     width: 100%;
     height: 50%;
 }
-
-
-@media screen and (max-width:600px) {
+#social-media{
+    margin-top: 200px;
+}
+.social-media h4{
+    font-size: 10px;
+}
+.social-media{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+   
     
 }
+.social-media i{
+    font-size: 30px;
+    color: darkblue;
+    margin-inline: 20px;
+}
+
+
+
 
